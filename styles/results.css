@@ -1,0 +1,138 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto' , sans-serif;
+  text-decoration:none;
+  background-image: url('../images/background.jpg');  /* Path to your image */
+  background-size: cover;                  /* Make it fill the whole area */
+  background-position: center;             /* Center the image */
+  background-repeat: no-repeat;    
+  background-attachment: fixed;
+}
+
+.head-section {
+  text-align: center;
+  color: #e0e0e0;
+}
+/*ai*/
+.circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 0deg, #e0e0e0 0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin: 15px;
+}
+
+.inner {
+  background: white;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/**/
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.correct {
+  margin-right: 3rem;
+  text-align: center;
+  color: #4caf50;
+}
+.wrong {
+  margin-right: 3rem;
+  text-align: center;
+  color: red;
+}
+.none {
+  margin-right: 3rem;
+  text-align: center;
+  color: rgb(188, 184, 184);
+}
+#if-3-nore{
+  color: aliceblue;
+}
+/**/
+.restart-option {
+  margin-top: 8rem;
+}
+.restart-option h2 {
+  display: inline-block;
+  color: aliceblue;
+  padding: 8px;
+  box-shadow: 0 0 8px #ec18c1, 0 0 15px #ff33bb;
+  border: 2px solid;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+.restart-option h2:hover{
+  background-color: #ec18c1;
+  cursor: help;
+}
+.restart-button {
+  display: block;
+  width: 10rem;
+  height: 3rem;
+  font-size: 25px;
+  font-weight: 600;
+  box-shadow: 0 0 8px #18c9ec, 0 0 15px #18c9ec;
+  border: 2px solid ;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  color: #18c9ec;
+}
+a{
+    text-decoration: none;
+}
+.restart-button:hover {
+  box-shadow: 0 0 8px #270bc1, 0 0 15px #270bc1;
+  color: #270bc1;
+  cursor: pointer;
+}
+/* 📱 Mobile adjustments */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .correct, .wrong, .none {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .restart-option {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  .restart-button {
+    margin: 0 auto;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    margin-left:40px ;
+  }
+
+  .inner {
+    width: 65px;
+    height: 65px;
+  }
+}

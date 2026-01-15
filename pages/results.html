@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/results.css">
+</head>
+<body>
+  <div class="head-section">
+    <h1>Results Time !</h1>
+    <h3>When the time comes , there will be no way back..!</h3>
+    <hr>
+  </div>
+  <div class="body-section">
+
+    <div class="container">
+      <div class="correct">
+        <h3>Corrected Answers</h3>
+        <div class="circle" data-key="correct">
+          <div class="inner">0%</div>
+        </div>
+        <div class="correct-total"></div>
+      </div>
+
+      <div  class="wrong">
+        <h3>False Answers</h3>
+        <div class="circle" data-key="wrong">
+          <div class="inner">0%</div>
+        </div>
+        <div class="wrong-total"></div>
+      </div>
+
+      <div class="none">
+        <h3>Didn't hit Well</h3>
+        <div class="circle" data-key="zero">
+          <div class="inner">0%</div>
+        </div>
+        <div class="nore-total"></div>
+        <div id="if-3-nore"></div>
+      </div>
+    </div>
+
+    <div class="restart-option">
+      <h2>Would you like to play again ?</h2>   
+      <a href="main.html"><button class="restart-button">Restart</button></a>
+    </div>
+  </div>
+  
+  <script src="../js/raiting-results.js" type="module"></script>
+</body>
+</html>

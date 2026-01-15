@@ -1,0 +1,212 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family:  cursive;
+  text-decoration:dashed;
+}
+.head-section {
+  display: block;
+  text-align: center;
+}
+.head-section p{
+  font-weight: 600;
+}
+h1 {
+  margin-bottom: -10px;
+}
+.rules {
+  text-align: start;
+  margin-left: 10px;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+/* BODY SECTION */
+.body-section {
+  margin-left: 20px;
+}
+.question {
+  margin-bottom: 3rem;
+}
+.body-section p{
+  font-size: 1.1em;
+  margin-bottom: -7px;
+}
+.question-id {
+  font-size: 1.1rem;
+  display: inline-block;
+  background-color:bisque;
+  margin-bottom: -10px;
+  margin-left: 5px;
+  padding: 5px;
+  width: fit-content;
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+  border-bottom-right-radius: 0px;
+}
+.input-answer{
+  margin-top: -1px;
+  padding: 5px 8px;
+  display: block;
+  width: 280px;
+  height: 30px;
+  border: 2px outset;
+  border-radius: 15px;
+  border-right: 2.5px solid;
+  font-size: medium;
+  font-weight: 500;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom-right-radius: 0px;
+}
+.input-answer:focus {
+  outline: none;
+}
+.id1 {
+  background-color:#e9edc9 ;
+  box-shadow: 0 0 10px #e9edc9, 0 0 10px #e9edc9;
+}
+.id2 {
+  background-color: #A4B5C4;
+  box-shadow: 0 0 10px #A4B5C4, 0 0 10px #A4B5C4;
+}
+.id3 {
+  background-color: #E3C39D;
+  box-shadow: 0 0 10px #E3C39D, 0 0 10px #E3C39D;
+}
+.id4 {
+  background-color: #C1E8FF;
+  box-shadow: 0 0 10px #C1E8FF, 0 0 10px #C1E8FF;
+}
+.id5{
+  background-color: #cdb4db;
+  box-shadow: 0 0 10px #cdb4db, 0 0 10px #cdb4db;
+}
+.id6 {
+  background-color: #CCFFAA;
+  box-shadow: 0 0 10px #CCFFAA, 0 0 10px #CCFFAA;
+}
+.id7 {
+  background-color: #fdffb6;
+  box-shadow: 0 0 10px #fdffb6, 0 0 10px #fdffb6;
+}
+.id8 {
+  background-color: #ffc8dd;
+  box-shadow: 0 0 10px #ffc8dd, 0 0 10px #ffc8dd;
+}
+.id9 {
+  background-color: #ff9770;
+  box-shadow: 0 0 10px #ff9770, 0 0 10px #ff9770;
+}
+.id10 {
+  background-color: #efe5dc;
+  box-shadow: 0 0 10px #efe5dc, 0 0 10px #efe5dc;
+}
+
+
+.q1-answer {
+  border-right: #c6ce8a solid;
+  box-shadow: 0 0 10px #c6ce8a, 0 0 10px #c6ce8a;
+}
+.q2-answer {
+  border-right: #A4B5C4 solid;
+  box-shadow: 0 0 10px #A4B5C4, 0 0 10px #A4B5C4;
+}
+.q3-answer {
+  border-right: #E3C39D solid;
+  box-shadow: 0 0 10px #E3C39D, 0 0 10px #E3C39D;
+}
+.q4-answer {
+  border-right: #C1E8FF solid;
+  box-shadow: 0 0 10px #C1E8FF, 0 0 10px #C1E8FF;
+}
+.q5-answer {
+  border-right: #cdb4db solid;
+  box-shadow: 0 0 10px #cdb4db, 0 0 10px #cdb4db;
+}
+.q6-answer {
+  border-right: #CCFFAA solid;
+  box-shadow: 0 0 10px #CCFFAA, 0 0 10px #CCFFAA;
+}
+.q7-answer {
+  border-right: #f6fe00 solid;
+  box-shadow: 0 0 10px #f6fe00, 0 0 10px #f6fe00;
+}
+.q8-answer {
+  border-right:  #ffc8dd solid;
+  box-shadow: 0 0 10px #ffc8dd, 0 0 10px #ffc8dd;
+}
+.q9-answer {
+  border-right: #ff9770 solid;
+  box-shadow: 0 0 10px #ff9770, 0 0 10px #ff9770;
+}
+.q10-answer {
+  border-right: #efe5dc solid;
+  box-shadow: 0 0 10px #efe5dc, 0 0 10px #efe5dc;
+}
+ 
+.submit {
+  margin-bottom: 30px;
+  margin-left: 23%;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 7px;
+  border: 3px solid;
+  border-radius: 8px;
+  background-color: rgb(139, 250, 139);
+  font-family: Verdana, sans-serif;
+}
+.submit:hover {
+  background-color: darkolivegreen;
+}
+
+/* rait buttons JS*/
+.answer-box {
+ display: inline-block;
+}
+.rait-buttons-container {
+  display: none;
+}
+.plus1 {
+  margin: 1.1rem 0.7rem auto 1.1rem;
+  width: 60px;
+  height: 40px;
+  font-weight: 600;
+  font-size:15px ;
+  border: none;
+  background-color: #e6ffe6; /* light green background */
+  border: 2px solid #00ff66; /* bright green border */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 8px #00ff66, 0 0 15px #00ff66;
+}
+.zero {
+  margin: 1.1rem 0.7rem auto 1.1rem;
+  width: fit-content;
+  height: 40px;
+  font-weight: 600;
+  font-size:15px ;
+  background-color: #f2f2f2; /* light grey background */
+  border: 2px solid #999999; /* medium grey border */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 8px #b3b3b3, 0 0 15px #b3b3b3; 
+}
+.minus1 {
+  margin: 1.1rem 0.7rem auto 1.1rem;
+  width: 60px;
+  height: 40px;
+  font-weight: 600;
+  font-size:15px ;
+  border: none;
+  background-color: #ffe6e6; /* light red background */
+  border: 2px solid #ff3333; /* bright red border */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 8px #ff3333, 0 0 15px #ff3333;
+}
+.second-submit {
+  background-color: #29e7fc;
+}
+.second-submit:hover{
+  background-color: rgb(255, 161, 192);
+}
